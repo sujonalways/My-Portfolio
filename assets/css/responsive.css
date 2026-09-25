@@ -1,5 +1,5 @@
 @media (max-width: 768px) {
-  #hero .mobile-img {
+  #hero .mobile-hero-section {
     position: relative;
     width: 100%;
     height: 100%;
@@ -89,23 +89,29 @@
     display: block;
   }
   /* button end */
-  #hero .modile-menu.active ul li {
+  #hero .modile-menu.active .modile-menu-ul li {
     padding: 20px;
     opacity: 1;
   }
-  #hero .modile-menu ul li {
+  #hero .modile-menu .modile-menu-ul li {
     background-color: #201c19;
     transition: 0.5s ease;
     padding: 0;
     opacity: 0;
   }
-  #hero .modile-menu ul li:last-child {
+  #hero .modile-menu .modile-menu-ul li:hover {
     background-color: #fff;
   }
-  #hero .modile-menu ul li:last-child a {
+  #hero .modile-menu .modile-menu-ul li:hover a {
     color: #000;
   }
-  #hero .modile-menu ul li a {
+  #hero .modile-menu .modile-menu-ul li.activess:hover {
+    background-color: #fff;
+  }
+  #hero .modile-menu .modile-menu-ul li.activess:hover a {
+    color: #000;
+  }
+  #hero .modile-menu .modile-menu-ul li a {
     padding: 20px;
     /* background: #fff; */
     font-family: "Montserrat", sans-serif;
@@ -113,5 +119,24 @@
     font-size: 12px;
     text-align: center;
     color: #fff;
+  }
+  .shot_into .container {
+    background-image: url(/assets/image/Logo\ ITB.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  /* ========================== About ======================== */
+  #about {
+    padding: 50px 0;
+  }
+  #about .content h2 {
+    font-size: 20px;
+    width: 250px;
+    padding: 18px;
+  }
+  #about .content p {
+    font-weight: 300;
+    font-size: 12px;
+    padding: 0 10px;
   }
 }

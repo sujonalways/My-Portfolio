@@ -1,23 +1,32 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 body {
   font-family: "Montserrat", sans-serif;
 }
 
-#hero ul a {
+#hero {
+  /* height: 100vh; */
+}
+#hero .nav-ul a:hover {
+  color: #000;
+  background: #fff;
+  border: 4px solid #fff;
+  border-radius: 30px;
+  padding: 10px;
+}
+#hero .nav-ul {
+  box-shadow: 0 0 1px white;
+}
+#hero .nav-ul a {
   padding: 10px;
   font-family: "Montserrat", sans-serif;
   z-index: 1;
   font-weight: 600;
   font-size: 15px;
   text-align: center;
+  transition: 0.5s ease;
   color: #fff;
 }
-#hero ul a.actives {
-  padding: 10px;
-  font-family: "Montserrat", sans-serif;
-  font-weight: 600;
-  font-size: 15px;
-  text-align: center;
+#hero ul li.actives a {
   color: #000;
   background: #fff;
   border: 4px solid #fff;
@@ -27,15 +36,14 @@ body {
 /* ========================== hero ======================== */
 
 #hero .content {
-  height: 100vh;
-
   position: relative;
 }
 #hero .left {
   width: 50%;
-  height: 100%;
+  /* height: 100vh;  */
   background: #d3d3d3;
 }
+
 #hero .right {
   position: absolute;
   top: 0;
@@ -83,12 +91,115 @@ body {
 }
 /* ========================== down nav ======================== */
 #hero .down-nav {
-    position: absolute;
-    top: 0;
-    display: none;
+  position: absolute;
+  top: 0;
+  display: none;
   width: 100%;
 }
-#hero .down-nav ul {
-    margin-right: 80px;
+
+#hero .down-nav .nav-ul {
+  margin-right: 80px;
+  box-shadow: none;
+}
+.shot_into {
+  background: linear-gradient(
+    90.18deg,
+    #1d1d1d 31.72%,
+    #1d1d1d 90.54%,
+    #1d1d1d 90.54%
+  );
+
+  color: #fff;
+}
+.shot_into h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+  letter-spacing: 0.19em;
+  color: #fff;
+}
+.shot_into p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 139%;
+  text-align: justify;
+  padding: 20px 0 30px 0;
+  color: #fff;
+}
+.shot_into a:hover {
+  padding: 5px 20px;
+  color: #000;
+  background: #fff;
+}
+.shot_into a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-align: center;
+  transition: 0.5s ease;
+  color: #fff;
+  padding: 5px 14px;
+
+  border-left: 1px solid white;
+  border-right: 1px solid white;
 }
 /* ========================== down nav end ======================== */
+
+/* =================== About START ======================  */
+#about {
+  background: #fff
+    radial-gradient(
+      50% 50% at 50% 50%,
+      rgba(26, 21, 21, 0) 0%,
+      rgba(1, 1, 1, 0.16) 100%
+    );
+  padding: 100px 0;
+}
+#about .content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 128%;
+  letter-spacing: 0.36em;
+  text-align: center;
+  color: #000;
+  border: 4px solid;
+  width: 350px;
+  padding: 25px;
+}
+#about .content p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 139%;
+  text-align: center;
+  color: #050505;
+  
+}
+#about .content button:hover {
+  color: #fff;
+  background: linear-gradient(
+    90.18deg,
+    #1d1d1d 31.72%,
+    #1d1d1d 90.54%,
+    #1d1d1d 90.54%
+  );
+  padding: 7px 25px;
+}
+#about .content button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  text-align: center;
+  color: #000;
+  padding: 7px 16px;
+  cursor: pointer;
+  border-left: 3px solid;
+  border-right: 3px solid;
+  transition: 0.5s ease;
+}
+/* popup */
+/* popup end */
+/* =================== About END ======================= */
+

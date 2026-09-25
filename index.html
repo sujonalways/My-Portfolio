@@ -23,7 +23,7 @@
 
     <header>
 
-        <div id="hero" class="bg-[#000] md:bg-[#E5E5E5]">
+        <div id="hero" class="bg-black md:bg-[#E5E5E5]">
             <div class="container mx-auto">
                 <!-- laptop -->
                 <div class="content hidden md:flex">
@@ -49,7 +49,7 @@
                     <div class="right">
 
                         <div class="mt-12  justify-center  ">
-                            <ul class="flex justify-center gap-10 ">
+                            <ul class="flex justify-center gap-10 nav-ul ">
                                 <li><a href="#">About me</a></li>
                                 <li><a href="#">Skills</a></li>
                                 <li><a href="#">Portfolio</a></li>
@@ -57,7 +57,7 @@
                             </ul>
                         </div>
                         <div class="w-[700px] flex justify-center items-center">
-                            <img class="w-[82%] ml-[155px] mt-[30px]" src="./assets/image/profile-pic2.png" alt="">
+                            <img class="w-[70%] ml-[155px] mt-[30px]" src="./assets/image/profile-pic2.png" alt="">
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                     <div>
                         <img src="./assets/image/logo2.png" alt="">
                     </div>
-                    <ul class="flex justify-center gap-10 ">
+                    <ul class="flex justify-center gap-10 nav-ul">
                         <li><a href="#">About me</a></li>
                         <li><a href="#">Skills</a></li>
                         <li><a href="#">Portfolio</a></li>
@@ -89,7 +89,7 @@
                 </nav>
                 <!-- menu -->
                 <div class="modile-menu md:hidden">
-                    <ul>
+                    <ul class="modile-menu-ul ">
                         <li><a href="#">About me</a></li>
                         <li><a href="#">Skills</a></li>
                         <li><a href="#">Portfolio</a></li>
@@ -98,7 +98,7 @@
                 </div>
 
                 <!-- hero img -->
-                <div class="md:hidden block">
+                <div class="md:hidden block mobile-hero-section">
                     <div class="mobile-img flex justify-end">
                         <img src="./assets/image/5.png" alt="">
                     </div>
@@ -118,14 +118,85 @@
 
                     </div>
                 </div>
+
+            </div>
+        </div>
+
+        <!-- shot into -->
+        <div class="shot_into">
+
+
+            <div class="container mx-auto  grid md:grid-cols-12 ">
+                <div class="md:ml-20 py-7 px-7 md:px-0 md:col-span-7">
+                    <h2>MY APPROACH</h2>
+                    <p>I believe a good website should be simple, fast, responsive and easy to use. I focus on creating
+                        experiences that look good and work smoothly on every screen.</p>
+                    <a href="#">EXPLORE</a>
+                </div>
+                <div class="md:col-span-5 hidden md:flex w-full justify-center">
+                    <img class="w-[65%] opacity-20 " src="./assets/image/Logo ITB.png" alt="">
+                </div>
+
             </div>
         </div>
     </header>
-
     <!-- ========================= header END ======================== -->
-    <section>
-        <h2>Hello,sujon</h2>
+
+
+    <!-- ========================= About START ====================== -->
+    <section id="about">
+        <div class="container mx-auto ">
+            <div class="content ">
+
+                <div class="flex justify-center">
+                    <h2>ABOUT ME</h2>
+                </div>
+                <div class="flex justify-center md:py-15 px-4 py-10">
+
+
+                    <p class="w-280 ">
+                        Hi, I'm Md. Sujon Uddin, a Front-end Web Developer from Bangladesh with a passion for creating
+                        clean, responsive, and user-friendly websites. I enjoy turning ideas and concepts into
+                        functional and visually engaging web experiences that work smoothly across different devices.
+
+                        I work with HTML, CSS, JavaScript, Bootstrap, and Tailwind, and I'm currently expanding my
+                        skills in PHP,
+                        Laravel, and React. I also enjoy learning new technologies, improving my problem-solving skills,
+                        and building practical projects to strengthen my development skills.<br><br>
+
+                        My goal is to become a skilled professional Web Developer and create modern, high-quality
+                        websites that provide a great experience for users.
+                    </p>
+                </div>
+                <div class="flex justify-center">
+
+                    <button>READ MORE</button>
+                </div>
+            </div>
+        </div>
+
+
     </section>
+    <!-- popup -->
+    <section id="popup">
+        <div class="container mx-auto">
+            <div class="title flex justify-between">
+                <h2>About me</h2>
+                <button><i class="fa-solid fa-xmark"></i></button>
+            </div>
+            <div class="grid grid-cols-12">
+                <div class="col-span-4">
+                    <img src="./assets/image/7.png" alt="">
+                </div>
+                <div class="col-span-8">
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- popup end -->
+    <!-- ========================= About END ======================== -->
 
 
 
