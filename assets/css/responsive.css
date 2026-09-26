@@ -143,3 +143,56 @@
     font-size: 15px;
   }
 }
+@media (max-width: 700px) {
+
+    .journey {
+        padding: 70px 25px;
+    }
+
+    .section-title {
+        margin-bottom: 60px;
+    }
+
+    .section-title h2 {
+        font-size: 20px;
+        padding: 12px 25px;
+        letter-spacing: 5px;
+    }
+
+    .timeline::before {
+        left: 15px;
+    }
+
+    .timeline-item {
+        display: grid;
+        grid-template-columns: 30px 1fr;
+        gap: 15px;
+        margin-bottom: 50px;
+    }
+
+    .timeline-date {
+        grid-column: 2;
+        grid-row: 1;
+        text-align: left;
+    }
+
+    .timeline-dot {
+        grid-column: 1;
+        grid-row: 1 / span 2;
+        margin: 5px 0 0;
+    }
+
+    .timeline-content {
+        grid-column: 2;
+        grid-row: 2;
+        padding-left: 0;
+    }
+
+    .timeline-content h3 {
+        font-size: 17px;
+    }
+
+    .timeline-content p {
+        font-size: 12px;
+    }
+}
