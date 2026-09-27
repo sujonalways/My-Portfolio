@@ -251,7 +251,6 @@ body {
   padding: 10px;
 }
 
-
 /* popup end */
 
 /* ========================== ai css ======================== */
@@ -405,28 +404,19 @@ body {
 }
 #skills .using_skill ul li > div {
   font-size: 35px;
- 
-  
 }
 #skills .container {
- overflow: hidden;
-
- 
-  
+  overflow: hidden;
 }
 #skills .using_skill ul {
-  width: max-content; 
- 
-  
+  width: max-content;
 }
 #skills .using_skill ul li img {
   /* font-size: 35px; */
- width: 31px;
- margin-right: 10px;
- margin-bottom: 3px;
- border-radius: 6px;
-
-  
+  width: 31px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  border-radius: 6px;
 }
 #skills .using_skill ul li span {
   font-family: "Montserrat", sans-serif;
@@ -447,7 +437,6 @@ body {
   background: #c4c4c4;
   border-radius: 30px;
   cursor: pointer;
-
 }
 /* learning_skill */
 #skills .learning_skill h3 {
@@ -461,27 +450,19 @@ body {
 }
 #skills .learning_skill ul li > div {
   font-size: 35px;
- 
-  
 }
 #skills .container {
- overflow: hidden;
- 
-  
+  overflow: hidden;
 }
 #skills .learning_skill ul {
-  width: max-content; 
- 
-  
+  width: max-content;
 }
 #skills .learning_skill ul li img {
   /* font-size: 35px; */
- width: 31px;
- margin-right: 10px;
- margin-bottom: 3px;
- border-radius: 6px;
-
-  
+  width: 31px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  border-radius: 6px;
 }
 #skills .learning_skill ul li span {
   font-family: "Montserrat", sans-serif;
@@ -502,7 +483,6 @@ body {
   background: #c4c4c4;
   border-radius: 30px;
   cursor: pointer;
-
 }
 #skills .learning_skill h3 {
   font-family: "Montserrat", sans-serif;
@@ -515,27 +495,19 @@ body {
 }
 #skills .learning_skill ul li > div {
   font-size: 35px;
- 
-  
 }
 #skills .container {
- overflow: hidden;
- 
-  
+  overflow: hidden;
 }
 #skills .learning_skill ul {
-  width: max-content; 
- 
-  
+  width: max-content;
 }
 #skills .learning_skill ul li img {
   /* font-size: 35px; */
- width: 31px;
- margin-right: 10px;
- margin-bottom: 3px;
- border-radius: 6px;
-
-  
+  width: 31px;
+  margin-right: 10px;
+  margin-bottom: 3px;
+  border-radius: 6px;
 }
 #skills .learning_skill ul li span {
   font-family: "Montserrat", sans-serif;
@@ -549,7 +521,6 @@ body {
   background: #1d1d1d;
   padding: 20px 0;
   display: flex;
-  justify-content: end;
 }
 #skills .learning_skill ul li {
   border: 3px solid;
@@ -558,7 +529,49 @@ body {
   background: #c4c4c4;
   border-radius: 30px;
   cursor: pointer;
-
 }
 
 /* ========================== Skill ======================== */
+
+/* =================== project START ======================  */
+#project {
+  background: #DBDBDB;
+}
+#project .project h2{
+      font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 128%;
+    letter-spacing: 0.36em;
+    text-align: center;
+    color: #000;
+    border: 4px solid;
+    width: 350px;
+    padding: 25px;
+}
+
+#project .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #1D1D1D;
+  padding: 20px;
+}
+#project .content h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 0.19em;
+  text-align: center;
+  color: #fff;
+}
+#project .content p {
+ font-family: "Open Sans", sans-serif;
+font-weight: 300;
+font-size: 14px;
+text-align: justify;
+color: #fff;
+}
+
+/* =================== project END ======================= */

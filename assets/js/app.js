@@ -33,10 +33,10 @@ skill_ul.forEach((el, index) => {
   let position = 0;
 
   setInterval(() => {
-    position = position - 1;
+    position --;
     el.style.transform = `translateX(${position}px)`;
     console.log(position);
-    if (position <= -1440) {
+    if (position <= -1420) {
       position = 0;
     }
   }, 20);
@@ -47,14 +47,14 @@ skill_ul.forEach((el, index) => {
 let learning_ul = document.querySelectorAll(".learning_ul li");
 
 learning_ul.forEach((el, index) => {
-  let position = 0;
+  let position = -610;
 
   setInterval(() => {
-   position = position + 1
+   position ++
     el.style.transform = `translateX(${position}px)`;
     // console.log(position);
-    if (100 <= position ) {
-      position = 0;
+    if (0 <= position ) {
+      position = -610;
     }
   }, 20);
 });

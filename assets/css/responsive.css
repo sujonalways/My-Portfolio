@@ -162,6 +162,14 @@
   #skills .learning_skill ul li {
      width: 150px;
   }
+      #project .project h2 {
+        font-size: 17px;
+        width: 207px;
+        padding: 12px;
+    }
+    #project .content p {
+      font-size: 11px
+    }
 }
 
 /* ai code */
