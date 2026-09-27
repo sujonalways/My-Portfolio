@@ -130,69 +130,90 @@
     padding: 50px 0;
   }
   #about .content h2 {
-    font-size: 20px;
-    width: 250px;
-    padding: 18px;
+    font-size: 17px;
+    width: 207px;
+    padding: 12px;
   }
-  #about .content p {
-    font-weight: 300;
-    font-size: 12px;
-    padding: 0 10px;
-  }
-  #popup .container .content{
+
+  #popup .container .content {
     font-size: 15px;
   }
+  #skills .content h2 {
+    font-size: 17px;
+    width: 207px;
+    padding: 12px;
+  }
+  #skills .using_skill h3 {
+    font-weight: 600;
+    font-size: 16px;
+
+    margin-left: 26px;
+    margin-top: 50px;
+  }
+  #skills .using_skill ul li {
+    width: 150px;
+  }
+  #skills .learning_skill h3 {
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 26px;
+    margin-top: 15px;
+  }
+  #skills .learning_skill ul li {
+     width: 150px;
+  }
 }
+
+/* ai code */
 @media (max-width: 700px) {
+  .journey {
+    padding: 70px 25px;
+  }
 
-    .journey {
-        padding: 70px 25px;
-    }
+  .section-title {
+    margin-bottom: 60px;
+  }
 
-    .section-title {
-        margin-bottom: 60px;
-    }
+  .section-title h2 {
+    font-size: 20px;
+    padding: 12px 25px;
+    letter-spacing: 5px;
+  }
 
-    .section-title h2 {
-        font-size: 20px;
-        padding: 12px 25px;
-        letter-spacing: 5px;
-    }
+  .timeline::before {
+    left: 15px;
+  }
 
-    .timeline::before {
-        left: 15px;
-    }
+  .timeline-item {
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    gap: 15px;
+    margin-bottom: 50px;
+  }
 
-    .timeline-item {
-        display: grid;
-        grid-template-columns: 30px 1fr;
-        gap: 15px;
-        margin-bottom: 50px;
-    }
+  .timeline-date {
+    grid-column: 2;
+    grid-row: 1;
+    text-align: left;
+  }
 
-    .timeline-date {
-        grid-column: 2;
-        grid-row: 1;
-        text-align: left;
-    }
+  .timeline-dot {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    margin: 5px 0 0;
+  }
 
-    .timeline-dot {
-        grid-column: 1;
-        grid-row: 1 / span 2;
-        margin: 5px 0 0;
-    }
+  .timeline-content {
+    grid-column: 2;
+    grid-row: 2;
+    padding-left: 0;
+  }
 
-    .timeline-content {
-        grid-column: 2;
-        grid-row: 2;
-        padding-left: 0;
-    }
+  .timeline-content h3 {
+    font-size: 17px;
+  }
 
-    .timeline-content h3 {
-        font-size: 17px;
-    }
-
-    .timeline-content p {
-        font-size: 12px;
-    }
+  .timeline-content p {
+    font-size: 12px;
+  }
 }
