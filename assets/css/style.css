@@ -575,3 +575,22 @@ color: #fff;
 }
 
 /* =================== project END ======================= */
+
+
+/* =================== contact START ======================  */
+#contact{
+  background: #DBDBDB;
+}
+#contact .container h2{
+      font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 128%;
+    letter-spacing: 0.36em;
+    text-align: center;
+    color: #000;
+    border: 4px solid;
+    width: 350px;
+    padding: 25px;
+}
+/* =================== contact END ======================= */
