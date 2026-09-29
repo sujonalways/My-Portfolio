@@ -160,16 +160,34 @@
     margin-top: 15px;
   }
   #skills .learning_skill ul li {
-     width: 150px;
+    width: 150px;
   }
-      #project .project h2 {
-        font-size: 17px;
-        width: 207px;
-        padding: 12px;
-    }
-    #project .content p {
-      font-size: 11px
-    }
+  #project .project h2 {
+    font-size: 17px;
+    width: 207px;
+    padding: 12px;
+  }
+  #project .content p {
+    font-size: 11px;
+  }
+  #contact .container h2 {
+    font-size: 17px;
+    width: 207px;
+    padding: 12px;
+  }
+  #footer p {
+    font-family: "Nunito", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #fff;
+    display: flex;
+    margin-top: 28px;
+    justify-content: center;
+}
+/*  tap_top */
+#hero .tap_top {
+  right: 30px;
+}
 }
 
 /* ai code */
