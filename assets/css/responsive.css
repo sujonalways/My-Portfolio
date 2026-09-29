@@ -188,6 +188,9 @@
 #hero .tap_top {
   right: 30px;
 }
+#hero .down-nav {
+  display: none;
+}
 }
 
 /* ai code */

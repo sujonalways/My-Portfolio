@@ -63,29 +63,35 @@ learning_ul.forEach((el, index) => {
 
 let tap_top_p = document.querySelector(".tap_top p ");
 let tap_top = document.querySelector(".tap_top ");
-let top_line = document.querySelector(".top_line")
+let top_line = document.querySelector(".top_line");
+let down_nav = document.querySelector(".down-nav");
+
 window.addEventListener("scroll", function () {
   scrollHight = document.documentElement.scrollHeight - window.innerHeight;
   totalHight = Math.ceil((window.scrollY / scrollHight) * 100);
   console.log(totalHight);
-  
-// tap button
-  if(totalHight >= 20){
-    tap_top.classList.add("active")
-  }else{
-    tap_top.classList.remove("active")
 
+  // down-nav
+  if (totalHight >= 30) {
+    down_nav.classList.add("active");
+  } else {
+    down_nav.classList.remove("active");
   }
 
-  tap_top_p.style.background =  `conic-gradient(#D3D3D3 0%, #D3D3D3 ${totalHight}%, #764f39 ${totalHight}%, #764f39 100%)`
+  // tap button
+  if (totalHight >= 20) {
+    tap_top.classList.add("active");
+  } else {
+    tap_top.classList.remove("active");
+  }
+
+  tap_top_p.style.background = `conic-gradient(#D3D3D3 0%, #D3D3D3 ${totalHight}%, #764f39 ${totalHight}%, #764f39 100%)`;
 
   //  top line
-  if(totalHight >= 6){
-    top_line.classList.add("active")
-  }else{
-    top_line.classList.remove("active")
-
+  if (totalHight >= 6) {
+    top_line.classList.add("active");
+  } else {
+    top_line.classList.remove("active");
   }
-  top_line.style.background = `linear-gradient(to right ,#1D1D1D 0%,#1D1D1D ${totalHight}%,#D6D6D6 ${totalHight}%, #D6D6D6 100%)`
-
+  top_line.style.background = `linear-gradient(to right ,#1D1D1D 0%,#1D1D1D ${totalHight}%,#D6D6D6 ${totalHight}%, #D6D6D6 100%)`;
 });
